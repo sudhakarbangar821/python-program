@@ -1,0 +1,428 @@
+Python Program
+
+1. Write a program to swap two numbers.
+a=10
+b=20
+
+a)a=10
+  b=20
+  print(a)
+  print(b)
+
+  a,b=b,a
+  print(a)
+  print(b)
+
+b) temp=a
+   a=b
+   b=temp
+   
+   print(a)
+   print(b)
+
+2. How to check number is prime or not.
+
+num=int(input("enter the number"))
+
+for i in range(2,num):
+    if num%i ==0:
+	print("not prime")
+        break
+else:
+    print("prime number")
+    
+
+3. How to find factorial of a number 
+
+num=int(input("enter the number"))
+
+factorial=1
+
+for i in range (1,num+1):
+    factorial=factorial*i
+
+print(factorial)
+
+4. Print Fibonacci series
+
+n1=0
+n2=1
+
+print(n1)
+print(n2)
+
+for i in range(2,10):
+    sum=n1+n2
+    print(sum)
+    n1=n2
+    n2=sum
+
+
+5. How to find the sum of elements in an array?
+
+alist=[1,28,44,54,37,77]
+print(sum(alist))
+
+6. How to find maximum and minimum elements in an array?
+
+alist=[1,28,44,54,37,77]
+
+print(max(alist))
+print(min(alist))
+
+max=alist[0]
+n=len(alist)
+for i in range(1,n):
+    if alist[i]=max
+    max=alist[i]
+print(max)
+
+ min=alist[0]
+ n=len(alist)
+ 
+ for i in range(1,n):
+     if alist[i]<min:
+
+7. How to find the length of the list?
+
+
+alist=[1,28,44,54,37,77]
+
+count=0
+
+for i in alist:
+    count=count+1
+print (count)
+
+8. How to swap first and last elements in the list
+
+alist=[22,54,66,76,99,12,96,110]
+
+alist=[22,54,66,76,99,12,96,110]
+print(alist)
+
+alist[0],alist[-1]=alist[-1],alist[0]
+print(alist)
+
+temp=alist[0]
+alist[0]=alist[-1]
+alist[-1]=temp
+
+
+
+9. How to swap any two elements in the list?
+
+alist=[22,54,66,76,99,12,96,110]
+print(alist)
+
+alist[2],alist[5]=alist[5],alist[2]
+print(alist)
+
+11. How to search an element in the list?
+
+alist=[12,33,43,55,67,88,3,110]
+
+ele=33
+flag=0
+
+for i in alist:
+    if i==ele:
+        print("element found")
+        flag=1
+        break
+if (flag==0):
+    print("element not found")
+
+
+12. How to clear the list?
+
+alist=[2,31,33,45,5,89,99]
+print(alist)
+
+alist.clear()
+print (alist)
+
+alist[]
+
+
+13. How to reverse a list?
+
+alist=[22,54,66,76,99,12,96,110]
+print(alist)
+alist.reverse()
+print(alist)
+
+alist2=alist[::-1]
+print(alist2)
+
+
+
+14. How to clone or copy a list?
+15. How to count occurrences of an element in a list?
+
+
+alist=[22,54,66,76,99,12,96,110,22,66,22]
+
+x=22
+count=0
+
+for i in alist:
+    if(x==i):
+        count=count+1
+print(count)
+
+
+16. Find the sum of the elements in list?
+
+
+alist=[2,5,10,3,15]
+total=0
+
+for i in range(0,len(alist)):
+    total=total+alist[i]
+
+print(total)
+
+
+17. How to multiply all the numbers in the list? 
+
+alist=[2,5,10,3,15]
+total=1
+
+for i in range(0,len(alist)):
+    total=total*alist[i]
+print(total)
+
+
+18. How to find the smallest and largest numbers on the list?
+
+alist=[22,54,66,76,99,12,96,110,22,66,22]
+alist.sort()
+print(alist)
+print(alist[-1])
+print(alist[0])
+print(max(alist))
+print(min(alist))
+
+19. How to find the second largest number in a list?
+
+alist=[22,54,66,76,99,12,96,110,22,66,22]
+alist.sort()
+print(alist)
+print(alist[-2])
+print(alist[1])
+
+
+
+20. How to check string is palindrome or not?
+	
+s=input("enter the string")
+print(s)
+
+ss=s[::-1]
+print(ss)
+
+if s==ss:
+    print("string is palandrome")
+
+else:
+    print("not palandrome")
+
+21. How to reverse words in a string?
+
+sb="welcome"
+print(sb)
+print(sb[::-1])
+
+
+22. How to find a substring in a string?
+
+sb ="welcome to python programing"
+
+sub="python"
+print(sb.find(sub))
+
+if (sb.find(sub)==-1):
+    print("not found")
+else:
+    print(" found")
+
+
+
+23. How to find the length of a string?
+
+wold="welcome"
+count=0
+
+for i in range(0,len(wold)):
+    count=count+1
+print(count)
+
+
+print(len(wold))
+
+
+24. How to check if the string contains any special character?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
